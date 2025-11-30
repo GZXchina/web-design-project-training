@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园购 - 大学生专属电商平台</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 网页头部模块 -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <div class="logo-icon">JY</div>
+                    <div class="logo-text">解忧校园购</div>
+                </div>
+
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="搜索商品、品牌...">
+                </div>
+
+                <div class="user-actions">
+                    <a href="./account.html" title="个人账户"><img src="./img/个人账户.png" alt="个人账户"></a>
+                    <a href="#" title="收藏夹"><img src="./img/收藏.png" alt=""></a>
+                    <a href="#" title="购物车"><img src="./img/购物车.png" alt="购物车"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <div class="container nav-container">
+                <div class="all-categories">
+                    全部分类
+                    <div class="category-dropdown">
+                        <a href="#" class="category-item">数码电子</a>
+                        <a href="#" class="category-item">学习用品</a>
+                        <a href="#" class="category-item">护肤彩妆</a>
+                        <a href="#" class="category-item">食品酒水</a>
+                        <a href="#" class="category-item">医药健康</a>
+                        <a href="#" class="category-item">潮流服饰</a>
+                        <a href="#" class="category-item">生活服务</a>
+                        <a href="#" class="category-item">家居百货</a>
+                    </div>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#">首页</a>
+                    <a href="#">限时抢购</a>
+                    <a href="#">特惠专区</a>
+                    <a href="#">新品上市</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="container">
+        <div class="carousel">
+            <div class="slides">
+                <div class="slide slide-1">
+                    <div class="slide-content">
+                        <h2 class="slide-title">数码电子</h2>
+                        <p class="slide-desc">笔记本电脑、平板、手机配件全场9折</p>
+                        <a href="#" class="slide-btn">立即抢购</a>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <h2 class="slide-title">学习用品</h2>
+                        <p class="slide-desc">教材、文具、生活用品超值套装</p>
+                        <a href="#" class="slide-btn">查看优惠</a>
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="slide-content">
+                        <h2 class="slide-title">潮流服饰</h2>
+                        <p class="slide-desc">T恤、卫衣、运动鞋，青春不设限</p>
+                        <a href="#" class="slide-btn">时尚选购</a>
+                    </div>
+                </div>
+                <div class="slide slide-4">
+                    <div class="slide-content">
+                        <h2 class="slide-title">食品酒水</h2>
+                        <p class="slide-desc">收纳、电器、装饰，打造舒适小窝</p>
+                        <a href="#" class="slide-btn">立即选购</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control prev">❮</button>
+            <button class="carousel-control next">❯</button>
+
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <!-- 热门分类模块 -->
+        <div class="hot-categories">
+            <h2 class="section-title">热门分类</h2>
+            <div class="categories-grid">
+                <div class="category-card category-1">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">数码电子</h3>
+                        <p class="category-desc">手机、电脑、配件等数码产品特惠</p>
+                    </div>
+                </div>
+
+                <div class="category-card category-2">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">学习用品</h3>
+                        <p class="category-desc">教材、文具、办公用品一站式选购</p>
+                    </div>
+                </div>
+
+                <div class="category-card category-3">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">潮流服饰</h3>
+                        <p class="category-desc">校园时尚，青春活力，个性穿搭</p>
+                    </div>
+                </div>
+
+                <div class="category-card category-4">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">食品酒水</h3>
+                        <p class="category-desc">美味零食，高端酒水</p>
+                    </div>
+                </div>
+                <div class="category-card category-5">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">护肤彩妆</h3>
+                        <p class="category-desc">口红，眉笔，洗面奶</p>
+                    </div>
+                </div>
+                <div class="category-card category-6">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">医药健康</h3>
+                        <p class="category-desc">家中常备感冒药</p>
+                    </div>
+                </div>
+                <div class="category-card category-7">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">家具百货</h3>
+                        <p class="category-desc">小家电、装饰品，提升生活品质</p>
+                    </div>
+                </div>
+                <div class="category-card category-8">
+                    <div class="category-img"></div>
+                    <div class="category-info">
+                        <h3 class="category-name">宿舍生活</h3>
+                        <p class="category-desc">收纳、碗盆，衣架等</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚模块 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.wtbu.edu.cn/">公司简介</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">企业文化</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">发展历程</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">加入我们</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>客户服务</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.wtbu.edu.cn/">常见问题</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">退换货政策</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">支付方式</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">配送说明</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>商家中心</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.wtbu.edu.cn/">商家入驻</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">运营规则</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">营销中心</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">服务支持</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.wtbu.edu.cn/">客服热线：17371447702</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">服务时间：9:00-22:00</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">校园服务中心</a></li>
+                        <li><a href="https://www.wtbu.edu.cn/">意见反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 解忧校园购 - 大学生专属电商平台. 保留所有权利.</p>
+            </div>
+        </div>
+        <!-- 底部导航栏（仅在小屏显示） -->
+        <nav class="bottom-nav">
+            <div class="small-user-actions">
+                <a href="./account.html" title="个人账户"><img src="./img/个人账户.png" alt="个人账户">
+                    <div>我的</div>
+                </a>
+                <a href="#" title="收藏夹"><img src="./img/收藏.png" alt="">
+                    <div>收藏</div>
+                </a>
+                <a href="#" title="购物车"><img src="./img/购物车.png" alt="购物车">
+                    <div>购物车</div>
+                </a>
+            </div>
+
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
